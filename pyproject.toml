@@ -1,0 +1,10 @@
+[project]
+name = "svg-to-app-icons"
+version = "1.0.0"
+description = "Convert SVG icon files to app icons in png and ico format."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "Pillow",
+    "cairosvg"
+]
