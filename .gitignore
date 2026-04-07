@@ -1,5 +1,15 @@
 # application specific ignores
-output/
+out_*/
+
+# sample data
+!assets_app_icons/
+assets_app_icons/*
+!assets_app_icons/sample_app_icon.svg
+
+!assets_button_icons/
+assets_button_icons/*
+!assets_button_icons/sample_button_icon_1.svg
+!assets_button_icons/sample_button_icon_2.svg
 
 # Apple - MacOS
 .DS_Store
