@@ -1,0 +1,18 @@
+###########################################
+# IDE and code editor settings
+# works in PyCharm and Visual Studio Code
+###########################################
+
+# Root-level settings
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+# code formatting will wrap at 200 chars instead of default 120 in PyCharm
+max_line_length = 240
+
+[*.{bat,cmd}]
+end_of_line = crlf
